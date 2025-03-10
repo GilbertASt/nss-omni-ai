@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
           <h2 className="text-2xl font-semibold mb-3">🚀 AI-Powered Business Transformation</h2>
           <p>
             Discover how AI can help optimize your processes, reduce inefficiencies, 
-            and accelerate growth with our **Value Stream Mapping (VSM) Tool** and **Organizational Assessment Tool**.
+            and accelerate growth with our <strong>Value Stream Mapping (VSM) Tool</strong> and <strong>Organizational Assessment Tool</strong>.
           </p>
           <div className="mt-4">
             <Link href="/assessment">
@@ -44,7 +45,7 @@ export default function Home() {
         <section className="bg-white shadow-md rounded-lg p-6">
           <h2 className="text-2xl font-semibold mb-3">💳 Subscription & Pricing</h2>
           <p>
-            Get started with a **$99 monthly plan** or explore our exclusive **Founders Club** 
+            Get started with a <strong>$99 monthly plan</strong> or explore our exclusive <strong>Founders Club</strong> 
             for early adopters.
           </p>
           <div className="mt-4">
