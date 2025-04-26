@@ -1,0 +1,6 @@
+5. Save the file (`Ctrl+S`)
+
+---
+
+Let me know once that’s done — and I’ll guide you on **committing and pushing it to GitHub** in the next step.  
+Ready for Step 3?
