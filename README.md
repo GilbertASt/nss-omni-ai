@@ -26,7 +26,7 @@
 ### ✅ Prerequisites
 
 - Node.js (v14 or higher)  
-- npm or yarn  
+- npm, yarn, pnpm, or bun  
 - Supabase account  
 - Stripe account  
 - OpenAI API key (optional for ArminX)  
@@ -37,20 +37,29 @@
 
 1. **Clone the repo:**
 
-   ```bash
+   
+bash
    git clone https://github.com/yourusername/nss-compass-os.git
    cd nss-compass-os
-   ```
+
 
 2. **Install dependencies:**
 
-   ```bash
+   
+bash
    npm install
-   ```
+   # or
+   yarn
+   # or
+   pnpm install
+   # or
+   bun install
 
-3. **Create `.env.local` in the root directory with the following:**
 
-   ```env
+3. **Create .env.local in the root directory with the following:**
+
+   
+env
    NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
    SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
@@ -58,19 +67,26 @@
    STRIPE_WEBHOOK_SECRET=your_stripe_webhook_secret
    NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
    OPENAI_API_KEY=your_openai_api_key
-   ```
+
 
 4. **Run the development server:**
 
-   ```bash
+   
+bash
    npm run dev
-   ```
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+
 
 5. **Visit the app:**
 
-   ```
-   http://localhost:3000
-   ```
+   
+http://localhost:3000
+
 
 ---
 
@@ -92,16 +108,16 @@
 
 | Command            | Description                  |
 |--------------------|------------------------------|
-| `npm run dev`      | Start local dev server       |
-| `npm run build`    | Build production assets      |
-| `npm start`        | Start server (post-build)    |
-| `npm run lint`     | Run ESLint                   |
+| npm run dev      | Start local dev server       |
+| npm run build    | Build production assets      |
+| npm start        | Start server (post-build)    |
+| npm run lint     | Run ESLint                   |
 
 ---
 
 ## 📸 Visual Preview
 
-> _(Drop a `.gif` or screenshot named `preview.gif` into your `/public/` folder and it will show up above.)_
+> _(Drop a .gif or screenshot named preview.gif into your /public/ folder and it will show up above.)_
 
 ---
 
@@ -118,7 +134,7 @@ Want to collaborate, customize, or contribute?
 
 - ✉️ Email: [your-email@example.com]  
 - 🌐 Web: [yourcompany.com]  
-- 🔗 LinkedIn / Twitter: `@yourhandle`
+- 🔗 LinkedIn / Twitter: @yourhandle
 
 ---
 
@@ -131,3 +147,24 @@ Planned features include:
 - 📈 VSM version history  
 - 🤝 Team-based permissions and seat logic  
 - 🧠 Full ArminX OpenAI integration  
+
+---
+
+## 📘 Learn More
+
+To learn more about Next.js, take a look at the following:
+
+- [Next.js Documentation](https://nextjs.org/docs) – API and features overview  
+- [Learn Next.js](https://nextjs.org/learn-pages-router) – Interactive tutorial  
+- [GitHub Repo](https://github.com/vercel/next.js) – Community and contributions  
+
+---
+
+## 🚀 Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+
+Check out [Next.js deployment docs](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+
+✅ Deployment test – 2025-04-12 2:52 PM  
+🔁 Triggered from GitHub commit
